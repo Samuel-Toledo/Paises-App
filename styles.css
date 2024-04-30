@@ -1,0 +1,37 @@
+/* MAIN PAGE STYLES */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box; /* siempre se utiliza para ajustar el contenido de acuerdo al tamaño de la caja padre*/
+    /* background-color: #00AAFF; */
+}
+body {
+    background: linear-gradient(to bottom, #00AAFF, #FFFFFF);
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0%;
+    background-attachment: fixed;
+}
+
+
+.header {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 5px 30px;
+    display: flex;
+    align-items: center; /*vertical*/
+    justify-content: center;/*horizontal*/
+}
+.navbar {
+    margin-top: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    margin: 0px 20px;
+    width: 300px;
+    padding: 8px 50px 8px 20px;
+}
