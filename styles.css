@@ -30,8 +30,12 @@ body {
     justify-content: center;
 }
 
-input {
+.navbar * {
     margin: 0px 20px;
     width: 300px;
     padding: 8px 50px 8px 20px;
+    border-radius: 30px;
+}
+.navbar button, select {
+    cursor: pointer;
 }
