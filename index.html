@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -12,18 +13,56 @@
         <h1>Países App</h1>
         
     </div>
+    
+    <form action="" class="search-country">
 
-    <div class="navbar">
-
-        <input type="text" placeholder="Ingresa un país">
-        <select name="opciones" id="">
-            <option value="">Continente</option>
-            <option value="">Idioma</option>
-            <option value="">Clima</option>
+        <div class="search-container">
+            
+            <input class="search-input" type="text" placeholder="Ingresa un país">
+            
+            <i class="fa-solid fa-circle-xmark clear-icon" att-for ="key-word"></i>
+        
+        </div>
+        
+        <select class="search-options" name="" id="">
+            <option class="option" value="">Continente</option>
+            <option class="option" value="">Region</option>
+            <option class="option" value="">Clima</option>
         </select>
-        <button>Buscar</button>
 
+        <button class="search-btn">
+            Buscar
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+    </form>
+
+
+    <div class="card-container">
+
+        <div class="country-card">
+            <img src="https://media.giphy.com/media/4ilFRqgbzbx4c/giphy.gif?cid=790b7611zyqed0to01he6t7ypru63a7snwnnfgy6w2w44kql&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="">
+            <p>Nombre del país</p>
+            <p>Habitantes</p>
+            <p>Idioma</p>
+        </div>
+
+        <div class="country-card">
+            <img src="https://media.giphy.com/media/4ilFRqgbzbx4c/giphy.gif?cid=790b7611zyqed0to01he6t7ypru63a7snwnnfgy6w2w44kql&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="">
+            <p>Nombre del país</p>
+            <p>Habitantes</p>
+            <p>Idioma</p>
+        </div>
+
+        <div class="country-card">
+            <img src="https://media.giphy.com/media/wkW0maGDN1eSc/giphy.gif?cid=ecf05e47098qpl2d4evcga68xe6k5losk33e311x6kd8w9yi&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="">
+            <p>Nombre del país</p>
+            <p>Habitantes</p>
+            <p>Idioma</p>
+        </div>
     </div>
+
+    <script src="./main.js"></script>
     
 </body>
 </html>
