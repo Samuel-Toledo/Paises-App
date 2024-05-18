@@ -116,19 +116,27 @@ body {
 
 }
 
+img {
+    margin: 10px;
+    max-width: 170px;
+    height: 95px;
+}
+
 .country-card {
     background-color: aliceblue;
-    margin: 10px;
+    margin: 25px;
     display: flex;
     flex-direction: column;
     width: 100%;
     max-width: 200px;
+    height: 250px;
     cursor: pointer;
     box-shadow: var(--bg-box-shadow);
     border-radius: 3px;
     background: linear-gradient(to bottom,#FFFFFF, #79caf3);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding: 5px;
 }
 .country-card:active {
     transform: translateY(1px);
@@ -136,6 +144,7 @@ body {
 
 .country-card p {
 margin-left: 5px;
+margin-bottom: 5px;
 font-weight: 600;
 }
 
